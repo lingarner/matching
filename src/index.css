@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Playpen+Sans:wght@800&display=swap');
+
+:root{
+  --primary-font: 'Playpen Sans', cursive;
+  --secondary-font: 'Noto Sans JP', sans-serif;
+  --background-color: 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box
 }
+
+body{
+  text-align: center;
+  font-family: var(--primary-font);
+  font-size: 30px;
+  margin: 10%;
+  margin-top: 2%;
+}
+
+button{
+  width: 24%;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: var(--secondary-font);
+  font-size: 30px;
+}
+
+button:hover{
+  background-color: #FBE098;
+}
+
+
+
+
